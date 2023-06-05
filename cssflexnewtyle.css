@@ -1,0 +1,63 @@
+*{
+           
+    box-sizing: border-box;
+}
+.parent
+{
+height: 200vh;
+border: 20px solid black;
+display: flex;
+/* flex-direction: row;  */
+ /* justify-content:flex-start ; */
+/* justify-content:flex-end ; */
+/* justify-content:center ; */
+/* justify-content: space-around; */
+/* justify-content: space-between;  */
+/* justify-content: space-evenly; */
+
+ /* align-items: flex-start;  */
+/* align-items: flex-end; */
+/* align-items: center;  */
+
+ /* flex-wrap: wrap; 
+align-content: flex-start;  */
+
+flex-flow:row wrap ;
+/* remove flex-direction and flex wrap; */
+
+}
+.div1
+{
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+ order:4;
+/* align-self: center;  */
+/* remove  align content from parent*/
+}
+.div2
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(147, 16, 60);
+    order:3;
+   /* align-self: flex-end; */
+}
+.div3
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(169, 157, 161);
+    order:2;
+    /* align-self: flex-end; */
+    
+
+}
+.div4
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(56, 136, 53);
+    /* order: 4; */
+
+}
