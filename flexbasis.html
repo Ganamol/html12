@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:#E7E9EB;
+}
+#myDIV {
+  height:300px;
+  background-color:#FFFFFF;
+  
+}
+#mymain {
+  height: 100px;
+  display: flex;
+  /* flex-flow: row-reverse wrap; */
+  /* flex-grow: 3; */
+}
+#mymain div {
+  padding:5px;
+}
+#bluediv {
+  flex-basis: 300px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>The flex-basis property</h1>
+
+<div id="myDIV">
+<p>Set the flex-basis property of the BLUE div:</p>
+<div id="mymain">
+  <div id="reddiv" style="background-color:coral;">red div</div>
+  <div id="bluediv" style="background-color:lightblue;">blue div</div>
+  <div style="background-color:khaki;">yellow div</div>
+  <div style="background-color:pink;">pink div</div>
+</div>
+
+</div>
+
+</body>
+</html>
