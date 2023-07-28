@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+      
+      *{
+            box-sizing: border-box;
+          
+        }
+        @media (max-width: 1000px) {
+            .parent-div {
+                flex-direction: column;
+            }
+        }
+
+
+.parent-div {
+    display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+        }
+.div1{
+    background-color: #0eb81c;
+  padding: 10px;
+  flex: 50%;
+        }
+.div2{
+    background-color: darkorange;
+  padding: 10px;
+  flex: 50%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="parent-div">
+   <div class="div1">1</div>
+   <div class="div2">2</div> 
+</div>
+</body>
+</html>

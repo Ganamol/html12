@@ -6,23 +6,23 @@
 {
 height: 200vh;
 border: 20px solid black;
-display: flex;
-/* flex-direction:row;  */
- /* justify-content:flex-start ;
-justify-content:flex-end ;
-justify-content:center ;
-justify-content: space-around;
-justify-content: space-between; 
-justify-content: space-evenly; */
-/* 
- align-items: flex-start; 
-align-items: flex-end;
-align-items: center;  */
+ display: flex; 
+/* flex-direction:row;   */
+ /* justify-content:flex-start ;  */
+ /* justify-content:flex-end ;  */
+/* justify-content:center ; */
+/* justify-content: space-around; */
+/* justify-content: space-between;  */
+/* justify-content: space-evenly;   */
 
-  /* flex-wrap: wrap;  */
-/* align-content: flex-start;   */
+  /* align-items: flex-start; 
+align-items: flex-end; */
+/* align-items: center;   */
 
-flex-flow:row wrap ;
+  /* flex-wrap: wrap; 
+align-content: flex-start;  
+
+flex-flow:row wrap ; */
 /* remove flex-direction and flex wrap; */
 
 }
@@ -40,8 +40,8 @@ align-self: flex-end;
     width: 200px;
     height: 200px;
     background-color: rgb(147, 16, 60);
-    order:3;
-   align-self: flex-end;
+     order:3; 
+   align-self: flex-end; 
 }
 .div3
 {
@@ -59,6 +59,6 @@ align-self: flex-end;
     height: 200px;
     background-color: rgb(56, 136, 53);
     order: 1;
-    
+    align-self: flex-start;
 
 }

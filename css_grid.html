@@ -16,29 +16,39 @@
         max-width: 900px;
         margin: auto;
         background-color:grey;
-    display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr ; */
-      /* grid-template-columns:1fr 2fr 1fr ; */
-     /* grid-template-rows: 1fr 1fr 1fr; */
-     /* grid-column-gap:20px ;  
-    grid-row-gap:20px;  */
-     grid-gap: 20px; 
+       display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr ;  */
+    /* grid-template-columns: repeat(3,1fr 2fr 1fr); */
+    /* grid-auto-rows:200px;  */
+
+/* 
+ grid-column-gap:20px;
+ grid-row-gap:20px; */
+ /* grid-gap:10px */
+
+
+      /* grid-template-columns:1fr 2fr 1fr ; 
+      grid-template-rows: 1fr 1fr 1fr;  */
+     /* grid-column-gap:20px ;   */
+    /* grid-row-gap:20px;   */
+     /* grid-gap: 20px;  */
     /* equal */
- grid-template-columns: repeat(3,2fr); 
- grid-auto-rows:200px;   
+  /* grid-template-columns: repeat(3,1fr 2fr 1fr);   */
+ /* grid-auto-rows:200px;     */
   /*all rows equally distributed  */
 
 }
-.grid-item1
+ /* .grid-item1
  {
-     grid-column-start: 3;  
-    grid-column-end:4;  
- grid-row-start: 2; 
-    grid-row-end: 3;  
-    grid-area: 1/2/3/4;
+     /* grid-column-start: 1;  
+    grid-column-end:3;   */
+ /* grid-row-start: 2;  */
+    /* grid-row-end: 3;   */
+    /* grid-area: 1/2/3/4; */
     /* grid-row-start / grid-column-start / grid-row-end / grid-column-end. */
-    background-color: aqua;
-} 
+    /* background-color: aqua; */
+ /* }    */ 
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
