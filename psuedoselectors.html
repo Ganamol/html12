@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <style>
-        /* .head-div div:first-child{
+
+        /* .head-div:hover p:last-child{
             background-color: crimson;
         } */
         /* .head-div p:last-child{
@@ -10,39 +11,46 @@
         } */
         /* .head-div p:first-of-type{
             background-color: crimson;
-        } */
-        /* .head-div p:last-of-type{
-            background-color: crimson;
-        } */
-        /* .head-div p:only-child{
-            background-color: crimson;
-        } */
-        .head-div p:only-of-type{
-            background-color: crimson;
         }
-        /* .head-div :nth-child(2n+1){
+        .head-div div:last-of-type{
+            background-color: crimson;
+        } */
+        /* .head-div div:only-child{
+            background-color: crimson;
+        } */
+        /* .head-div div:only-of-type{
+            background-color: crimson;
+        } */
+        /* .head-div :nth-child(n+3){
             background-color: crimson;
         } */
         /* 2n=2*0,2*1 */
         /* 2n+1 */
-        /* .head-div *:not(p){
+        .head-div *:not(div){
             background-color: crimson;
-        } */
+        }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <div class="body-div">
+  <div class="body-div">
 <div class="head-div"> 
-   
-    <p>p1</p>
+ 
+    <div>div1</div>
+    <div>div2</div> 
+   <div>div3</div>
+   <div>div4</div> 
+   <div>div5</div>
+   <div>div6</div> 
+   <div>div7</div>
+     <p>p1</p> 
     <p>p2</p>
-    <p>p3</p>
-<p>p4</p>
+    <p>p3</p>  
+     <p>p4</p>  
 </div>
-  </div>
+</div>
     <!-- <marquee behavior="scrool" direction="left">welcome</marquee> -->
 </body>
 </html>
